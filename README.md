@@ -4,6 +4,28 @@
 
 AI Engineer focused on NLP, Generative AI, retrieval-augmented generation (RAG), LLM evaluation, and reliable tool-using agent workflows. This portfolio brings together my professional experience, technical skills, selected projects, education, and IEEE publication.
 
+## Featured projects
+
+### [Pika PACE — Autonomous Generative Video Studio](https://agenticai-lime-five.vercel.app/)
+**Live demo · Interactive prototype · Agent-first creative workflow · Model MCP**
+
+Public Vercel demo of an agent-first creative studio concept. The interface includes natural-language scene prompts, multi-shot storyboard orchestration, a generative timeline and viewport, camera-motion controls, an MCP configuration panel, and gateway/cost-monitoring UI.
+
+### [Grounded Knowledge Assistant with Hybrid Retrieval](https://github.com/VarshithaChappidi/Grounded-Knowledge-Assistant-with-Hybrid-Retrieval)
+A local document-QA MVP combining lexical and TF-IDF retrieval, reciprocal-rank fusion, source-linked evidence, and evidence-based abstention. Includes FastAPI endpoints, a small local benchmark, tests, Docker, and a PostgreSQL/pgvector extension schema. The current implementation does not yet include persistent pgvector integration, cross-encoder reranking, or LLM answer synthesis.
+
+### [Tool-Using Agent Reliability and Evaluation Harness](https://github.com/VarshithaChappidi/Tool-Using-Agent-Reliability-and-Evaluation-Harness)
+A LangGraph support-workflow demo using synthetic tickets and mock APIs. It exercises bounded retries, structured tool outcomes, ambiguous-request handling, prompt-injection-like inputs, and human approval requirements before proposed state-changing actions.
+
+### [Conversation Intelligence Classification Benchmark](https://github.com/VarshithaChappidi/conversation-intelligence-classification-benchmark)
+A conversational NLP benchmark project focused on intent classification, model comparison, per-class metrics, and error analysis.
+
+### [Financial RAG Evaluation and Grounded Answering Agent](https://github.com/VarshithaChappidi/financial-rag-eval)
+A retrieval-evaluation and grounded-answering project over SEC 10-K filings for five banks, using BM25 and dense retrieval, reciprocal-rank fusion, cross-encoder reranking, source citations, numeric verification, refusal behavior, and automated tests.
+
+### [Text-to-SQL Fine-Tuning with QLoRA](https://github.com/VarshithaChappidi/text2sql-qlora) · [Fine-tuned model on Hugging Face](https://huggingface.co/Varshitha2603/qwen2.5-coder-3b-text2sql-qlora)
+Fine-tuned Qwen2.5-Coder-3B-Instruct using 4-bit QLoRA on 5,000 examples; normalized SQL exact match improved from **57.0% to 77.3%** on 300 held-out questions.
+
 ## Professional experience
 
 ### Frontier Agents Engineer (Applied AI) — Scale, USA
@@ -33,23 +55,6 @@ AI Engineer focused on NLP, Generative AI, retrieval-augmented generation (RAG),
 - **Backend & MLOps:** FastAPI, REST APIs, Docker, AWS, MLflow, GitHub Actions, CI/CD, model versioning, logging, latency and cost monitoring
 - **Engineering:** Pytest, unit/integration tests, Git, code reviews, documentation, requirements analysis, cross-functional collaboration
 
-## Featured projects
-
-### [Grounded Knowledge Assistant with Hybrid Retrieval](https://github.com/VarshithaChappidi/Grounded-Knowledge-Assistant-with-Hybrid-Retrieval)
-A local document-QA MVP combining lexical and TF-IDF retrieval, reciprocal-rank fusion, source-linked evidence, and evidence-based abstention. Includes FastAPI endpoints, a small local benchmark, tests, Docker, and a PostgreSQL/pgvector extension schema. The current implementation does not yet include persistent pgvector integration, cross-encoder reranking, or LLM answer synthesis.
-
-### [Tool-Using Agent Reliability and Evaluation Harness](https://github.com/VarshithaChappidi/Tool-Using-Agent-Reliability-and-Evaluation-Harness)
-A LangGraph support-workflow demo using synthetic tickets and mock APIs. It exercises bounded retries, structured tool outcomes, ambiguous-request handling, prompt-injection-like inputs, and human approval requirements before proposed state-changing actions.
-
-### [Conversation Intelligence Classification Benchmark](https://github.com/VarshithaChappidi/conversation-intelligence-classification-benchmark)
-A conversational NLP benchmark project focused on intent classification, model comparison, per-class metrics, and error analysis.
-
-### [Financial RAG Evaluation and Grounded Answering Agent](https://github.com/VarshithaChappidi/financial-rag-eval)
-A retrieval-evaluation and grounded-answering project over SEC 10-K filings for five banks, using BM25 and dense retrieval, reciprocal-rank fusion, cross-encoder reranking, source citations, numeric verification, refusal behavior, and automated tests.
-
-### [Text-to-SQL Fine-Tuning with QLoRA](https://github.com/VarshithaChappidi/text2sql-qlora) · [Fine-tuned model on Hugging Face](https://huggingface.co/Varshitha2603/qwen2.5-coder-3b-text2sql-qlora)
-Fine-tuned Qwen2.5-Coder-3B-Instruct using 4-bit QLoRA on 5,000 examples; normalized SQL exact match improved from **57.0% to 77.3%** on 300 held-out questions.
-
 ## Publication
 
 **Interactive Projection Technology Using Hand Gesture Recognition with Attention Mechanism and ResNet**
@@ -66,6 +71,7 @@ Co-authored a peer-reviewed IEEE ICAAIC 2023 paper on an attention- and ResNet-b
 ## Links
 
 - **Live portfolio:** https://varshithaportfolio-ai-engineer.vercel.app/
+- **Pika PACE live demo:** https://agenticai-lime-five.vercel.app/
 - **GitHub profile:** https://github.com/VarshithaChappidi
 - **LinkedIn:** https://www.linkedin.com/in/chappidi-varshitha/
 
