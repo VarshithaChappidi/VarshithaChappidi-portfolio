@@ -82,7 +82,7 @@ Co-authored a peer-reviewed IEEE ICAAIC 2023 paper on an attention- and ResNet-b
 
 ## Refreshed portfolio source
 
-The refreshed, responsive portfolio source is in [`site/index.html`](site/index.html). It presents the Applied AI engineering experience, project case studies, measured outcomes, research, and contact links in a light editorial design with accessible motion and mobile navigation.
+The portfolio source is in [`site/index.html`](site/index.html). The current design uses a restrained light palette, high-contrast typography, an AI systems architecture visual, engineering-principle panels, filterable project case studies, measurable outcomes, responsive navigation, and reduced-motion support.
 
 - **Live portfolio:** https://varshithaportfolio-ai-engineer.vercel.app/
 - **Portfolio source:** [site/index.html](site/index.html)
