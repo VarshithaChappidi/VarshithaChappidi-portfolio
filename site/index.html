@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#F9F7FD">
+  <meta name="theme-color" content="#07111F">
   <meta name="description" content="Varshitha Chappidi is an Applied AI Engineer focused on production LLM systems, retrieval quality, agent reliability, NLP, and measurable model performance.">
   <meta property="og:title" content="Varshitha Chappidi — Applied AI Engineer">
   <meta property="og:description" content="Applied AI engineering across LLM systems, retrieval, agent workflows, and evaluation.">
@@ -181,14 +181,155 @@
     @media(max-width:760px){.nav{border-radius:13px;height:60px}.nav-note{display:none}.hero{grid-template-columns:1fr;padding-top:42px;gap:30px}.hero h1{font-size:clamp(47px,11vw,72px)}.senior-board{min-height:0}.system-visual{padding:24px 18px}.system-heading{margin-bottom:22px}.board-metrics>div{padding:13px 11px}.board-metrics b{font-size:18px}.board-metrics span{font-size:8px}.discipline-inner{gap:10px 13px}.discipline-inner>span:not(.mono){font-size:9px}.section-head{display:block}.section-intro{margin-top:14px}.principles-grid{grid-template-columns:1fr}.principles-section{padding:70px 0}.skill-grid{grid-template-columns:1fr}.projects-grid{grid-template-columns:1fr}.project{min-height:unset}.job{grid-template-columns:1fr;gap:9px}.contact-card{border-radius:13px}}
     @media(max-width:420px){.hero-proof{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.proof{min-width:0;padding:10px 8px}.proof strong{font-size:18px}.proof span{font-size:8px}.system-step{grid-template-columns:83px 1fr;padding:11px}.system-step small{font-size:8px}.system-footer{font-size:8px}.discipline-inner>.mono{width:100%;text-align:center}}
     @media(prefers-reduced-motion:reduce){.system-step,.skill-card,.principle,.project{transition:none!important;animation:none!important}}
-</style>
+
+    /* AI engineering visual system: midnight navy, electric cyan, and signal violet */
+    :root{
+      --bg:#07111f;--paper:#0e1c2f;--ink:#eaf2ff;--muted:#9db1c8;--line:#20364f;
+      --purple:#a18cff;--purple-2:#1c2140;--coral:#38d8f3;--coral-2:#0d2b3b;
+      --mint:#153e38;--blue:#38d8f3;
+    }
+    html{scrollbar-color:#36536f #07111f}
+    body{background:#07111f!important;color:#eaf2ff!important}
+    body:before{
+      background:
+        radial-gradient(ellipse at 9% 5%,rgba(43,191,229,.16),transparent 31%),
+        radial-gradient(ellipse at 91% 23%,rgba(133,91,255,.16),transparent 30%),
+        linear-gradient(rgba(125,170,210,.035) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(125,170,210,.035) 1px,transparent 1px);
+      background-size:auto,auto,44px 44px,44px 44px;
+      opacity:.92;
+    }
+    ::selection{background:#38d8f3;color:#06111e}
+    a:focus-visible,button:focus-visible{outline-color:#38d8f3}
+    .mono,.muted{color:#8ea7c2}
+    .progress{background:linear-gradient(90deg,#38d8f3,#8b78ff,#79efc4)}
+    .header{top:8px}
+    .nav{
+      background:rgba(8,20,36,.86)!important;border-color:rgba(83,119,153,.34)!important;
+      box-shadow:0 15px 42px rgba(0,0,0,.24)!important;backdrop-filter:blur(22px)
+    }
+    .brand{color:#f0f6ff}
+    .brand-mark{background:linear-gradient(135deg,#22d3ee,#6658e8)!important;box-shadow:0 7px 22px rgba(34,211,238,.2)!important}
+    .brand-mark:after{background:#79efc4;color:#07111f}
+    .nav-note{color:#80a1bf!important}
+    .nav-links a{color:#b5c7dc!important}
+    .nav-links a:hover{background:rgba(56,216,243,.1)!important;color:#58e2fa!important}
+    .nav-links .nav-cta{background:linear-gradient(120deg,#38d8f3,#8878ff)!important;color:#06111f!important}
+    .nav-links .nav-cta:hover{background:linear-gradient(120deg,#79efc4,#38d8f3)!important;color:#06111f!important}
+    .menu span{background:#eaf2ff}
+    .eyebrow{background:rgba(14,31,51,.82)!important;border-color:#28435e!important;color:#a9c5df!important}
+    .pulse{background:#79efc4;box-shadow:0 0 0 5px rgba(121,239,196,.13)}
+    h1{color:#edf5ff}
+    h1 em{
+      background:linear-gradient(100deg,#38d8f3 0%,#8c80ff 70%,#79efc4 100%)!important;
+      -webkit-background-clip:text!important;background-clip:text!important;
+    }
+    .hero-copy{color:#a9bdd2!important}
+    .btn-primary{
+      background:linear-gradient(120deg,#38d8f3,#8c80ff)!important;color:#06111f!important;
+      box-shadow:0 12px 30px rgba(56,216,243,.2)!important;border:0!important
+    }
+    .btn-primary:hover{background:linear-gradient(120deg,#79efc4,#38d8f3)!important;transform:translateY(-3px)}
+    .btn-link{color:#d5e3f2!important;border-color:#48627e!important}
+    .btn-link:hover{color:#43def5!important;border-color:#43def5!important}
+    .hero-proof .proof{background:rgba(14,29,48,.88)!important;border-color:#29445e!important;box-shadow:0 10px 24px rgba(0,0,0,.14)!important}
+    .proof strong{color:#45def5!important}.proof span{color:#91a9c2!important}
+    .senior-board{background:#0b192a!important;border-color:#29445e!important;box-shadow:0 28px 80px rgba(0,0,0,.32)!important}
+    .senior-board:before{background:rgba(56,216,243,.2)!important}
+    .senior-board:after{background:rgba(139,120,255,.18)!important}
+    .senior-board .art-top,.system-footer,.board-metrics{border-color:#263d58!important}
+    .system-heading strong span,.system-arrow{color:#42def5!important}
+    .system-step{background:rgba(255,255,255,.025)!important;border-color:#2a435f!important}
+    .system-step:hover,.system-step.active{border-color:#38d8f3!important;background:rgba(56,216,243,.09)!important}
+    .system-step small,.system-step span,.system-footer{color:#92a9c1!important}
+    .board-metrics{background:rgba(255,255,255,.025)!important}
+    .board-metrics b{color:#8ce9ff!important}
+    .discipline-strip{background:#0b192a!important;border-color:#20364f!important}
+    .discipline-inner>span:not(.mono){color:#c0d3e6!important}
+    .discipline-inner>i{color:#42def5!important}
+    .section{background:transparent}
+    .kicker{color:#54d8ef!important}
+    h2{color:#edf5ff!important}
+    h2 em{color:#9d8cff!important}
+    .section-intro,.about-text{color:#a1b5cb!important}
+    .about-lede{color:#e0ebf8!important}
+    .note-card{
+      background:linear-gradient(145deg,#102b42,#172342)!important;border-color:#33516e!important;
+      box-shadow:0 22px 55px rgba(0,0,0,.22)!important;transform:none!important
+    }
+    .note-card p{color:#eaf4ff!important}
+    .note-card p em{color:#43def5!important}
+    .note-foot{color:#81a6c5!important}
+    .skills-section,.experience-section{
+      background:#0a192a!important;border-block-color:#20364f!important
+    }
+    .skill-card,.principle,.project,.info-card{
+      background:linear-gradient(155deg,#102238,#0c1b2d)!important;
+      border-color:#263f59!important;box-shadow:0 12px 30px rgba(0,0,0,.15)!important
+    }
+    .skill-card:hover,.principle:hover,.project:hover{
+      border-color:#38bfe0!important;box-shadow:0 18px 38px rgba(0,0,0,.25)!important
+    }
+    .skill-card .icon{background:#15364a!important;color:#52e0f5!important}
+    .skill-card:nth-child(2) .icon{background:#25244d!important;color:#b0a0ff!important}
+    .skill-card:nth-child(3) .icon{background:#153b3d!important;color:#79efc4!important}
+    .skill-card h3,.project h3,.principle h3{color:#eef5ff!important}
+    .skill-card p,.principle p,.project p,.job ul,.info-card p{color:#a2b6cb!important}
+    .chip{
+      background:#112942!important;border-color:#294765!important;color:#b6d2e7!important;
+      border-radius:6px
+    }
+    .principles-section{background:#071522!important;border-block-color:#20364f!important}
+    .principle-index,.project-meta .mono{color:#63d7eb!important}
+    .filter{background:#0e2034!important;border-color:#2a455f!important;color:#bdd0e2!important}
+    .filter:hover{border-color:#38d8f3!important;color:#50def4!important}
+    .filter.active{background:linear-gradient(120deg,#1c9fb9,#6258d8)!important;border-color:transparent!important;color:#fff!important}
+    .project{overflow:hidden}
+    .project-art{border-bottom:1px solid #2a435e!important}
+    .art-purple{background:radial-gradient(circle at 75% 20%,rgba(139,120,255,.26),transparent 45%),linear-gradient(135deg,#142941,#102039)!important}
+    .art-peach{background:radial-gradient(circle at 75% 20%,rgba(56,216,243,.2),transparent 45%),linear-gradient(135deg,#102b3c,#142039)!important}
+    .art-mint{background:radial-gradient(circle at 75% 20%,rgba(121,239,196,.18),transparent 45%),linear-gradient(135deg,#102d32,#13253b)!important}
+    .art-blue{background:radial-gradient(circle at 75% 20%,rgba(112,133,255,.24),transparent 45%),linear-gradient(135deg,#17264a,#11253a)!important}
+    .art-yellow{background:radial-gradient(circle at 75% 20%,rgba(56,216,243,.14),transparent 45%),linear-gradient(135deg,#18313d,#18243a)!important}
+    .art-word{color:rgba(174,214,242,.17)!important}
+    .mini-window{background:#0a192a!important;border-color:#35516d!important;box-shadow:0 12px 28px rgba(0,0,0,.24)!important}
+    .mini-bar{border-bottom-color:#29445f!important}
+    .mini-line{background:#29445f!important}
+    .mini-line.purple{background:#8879ff!important}.mini-line.peach{background:#38d8f3!important}
+    .project-content{background:transparent}
+    .project-outcome{border-left-color:#38d8f3!important;background:linear-gradient(90deg,rgba(56,216,243,.09),transparent)!important}
+    .project-outcome strong{color:#e9f5ff!important}
+    .project-outcome span{color:#8fa9c4!important}
+    .project-actions a,.info-card a,.job-company{color:#4edcf3!important}
+    .project-actions a{border-color:#315c76!important}
+    .job{border-color:#29425b!important}
+    .job-date{color:#88a4c1!important}
+    .info-card hr{border-top-color:#29425b!important}
+    .contact-card{
+      background:radial-gradient(ellipse at 85% 12%,rgba(139,120,255,.2),transparent 42%),linear-gradient(120deg,#102b40,#151e3e)!important;
+      border-color:#34516d!important;box-shadow:0 24px 60px rgba(0,0,0,.23)!important
+    }
+    .contact-card h2{color:#edf5ff!important}
+    .contact-card h2 em{color:#43def5!important}
+    .contact-card>p:not(.kicker){color:#a8bdd2!important}
+    footer .footer-top{border-color:#243c55!important}
+    footer,.footer-links a{color:#91a9c2!important}
+    .footer-links a:hover{color:#48def4!important}
+    @media(max-width:760px){
+      .nav-links{background:#0b1a2c!important;border:1px solid #29445f!important;box-shadow:0 16px 38px rgba(0,0,0,.3)!important}
+      .nav-links a{color:#c2d4e6!important}
+      .nav-links .nav-cta{color:#07111f!important}
+    }
+    @media(prefers-reduced-motion:reduce){body:before{opacity:.75}}
+
+  </style>
 </head>
 <body>
   <div class="progress" id="progress" aria-hidden="true"></div>
   <header class="header">
     <nav class="nav wrap" aria-label="Main navigation">
       <a class="brand" href="#home"><span class="brand-mark">VC</span><span>Varshitha Chappidi</span></a>
-      <span class="nav-note mono">APPLIED AI · SYSTEMS ENGINEERING</span>
+      <span class="nav-note mono">AI ENGINEERING · GENAI & AGENT SYSTEMS</span>
       <button class="menu" id="menu" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
       <div class="nav-links" id="navLinks">
         <a href="#about">About</a><a href="#skills">Expertise</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a class="nav-cta" href="#contact">Let's talk ↗</a>
@@ -198,9 +339,9 @@
   <main>
     <section class="hero wrap" id="home">
       <div>
-        <div class="eyebrow mono"><span class="pulse"></span> APPLIED AI ENGINEER · LLM SYSTEMS · EVALUATION</div>
-        <h1>Engineering AI systems that are <em>useful,</em> measurable, and dependable.</h1>
-        <p class="hero-copy">I’m Varshitha Chappidi. I build and evaluate LLM-powered applications, retrieval systems, and tool-using agents—with a focus on evidence quality, dependable behavior, and production readiness.</p>
+        <div class="eyebrow mono"><span class="pulse"></span> AI ENGINEER · GENAI · AGENTIC SYSTEMS · EVALUATION</div>
+        <h1>Engineering AI systems that <em>reason,</em> retrieve, and act—reliably.</h1>
+        <p class="hero-copy">I’m Varshitha Chappidi, an Applied AI Engineer building LLM-powered applications, RAG pipelines, and tool-using agents. I focus on retrieval quality, model evaluation, and production reliability—turning AI capabilities into measurable systems.</p>
         <div class="hero-actions"><a class="btn btn-primary" href="#projects">Explore my work <span>↘</span></a><a class="btn btn-link" href="https://www.linkedin.com/in/chappidi-varshitha/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a></div>
         <div class="hero-proof">
           <div class="proof"><strong>82%</strong><span>RAG Recall@5</span></div>
@@ -228,8 +369,8 @@
     </section>
     <section class="discipline-strip" aria-label="Engineering focus">
       <div class="wrap discipline-inner">
-        <span class="mono">ENGINEERING FOCUS</span>
-        <span>RETRIEVAL QUALITY</span><i>✳</i><span>AGENT RELIABILITY</span><i>✳</i><span>MODEL EVALUATION</span><i>✳</i><span>PRODUCTION SYSTEMS</span>
+        <span class="mono">AI ENGINEERING FOCUS</span>
+        <span>LLM APPLICATIONS</span><i>✳</i><span>RAG & RETRIEVAL</span><i>✳</i><span>AGENT ORCHESTRATION</span><i>✳</i><span>EVALUATION & MLOPS</span>
       </div>
     </section>
     <section class="section wrap" id="about">
