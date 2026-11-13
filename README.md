@@ -78,3 +78,11 @@ Co-authored a peer-reviewed IEEE ICAAIC 2023 paper on an attention- and ResNet-b
 ---
 
 *Focused on building useful, well-evaluated AI systems that connect model capabilities with reliable real-world applications.*
+
+
+## Refreshed portfolio source
+
+The refreshed, responsive portfolio source is in [`site/index.html`](site/index.html). It presents the Applied AI engineering experience, project case studies, measured outcomes, research, and contact links in a light editorial design with accessible motion and mobile navigation.
+
+- **Live portfolio:** https://varshithaportfolio-ai-engineer.vercel.app/
+- **Portfolio source:** [site/index.html](site/index.html)
