@@ -82,7 +82,7 @@ Co-authored a peer-reviewed IEEE ICAAIC 2023 paper on an attention- and ResNet-b
 
 ## Refreshed portfolio source
 
-The portfolio source is in [`site/index.html`](site/index.html). The current design uses a midnight-navy base with electric-cyan and signal-violet accents, technical AI-system visuals, engineering-principle panels, filterable project case studies, measurable outcomes, responsive navigation, and reduced-motion support.
+The portfolio source is in [`site/index.html`](site/index.html). The current design uses a graphite-and-mineral palette with a signal-lime accent, a custom AI systems architecture illustration, a featured financial RAG case study, filterable project cards, measurable outcomes, responsive navigation, and reduced-motion support.
 
 - **Live portfolio:** https://varshithaportfolio-ai-engineer.vercel.app/
 - **Portfolio source:** [site/index.html](site/index.html)
